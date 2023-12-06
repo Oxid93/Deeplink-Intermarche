@@ -1,0 +1,284 @@
+{
+   "links":[
+      {
+         "url":"monintermarche://intermarche.com/accueil",
+         "label":"Ecran d'accueil",
+         "icon":"house.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/recherche",
+         "label":"Recherche produits",
+         "icon":"arrow.forward.circle.fill",
+         "params": [
+             {
+                 "rank": 0,
+                 "name": "keyword",
+                 "description": "Le mot clé à rechercher",
+                 "mandatory": false
+             },
+             {
+                 "rank": 1,
+                 "name": "filters",
+                 "description": "Les filtres séparés par un '-' (sans espaces)",
+                 "mandatory": false
+             }
+         ]
+      },
+      {
+         "url":"monintermarche://intermarche.com/panier",
+         "label":"Panier",
+         "icon":"cart.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/boutique",
+         "label":"Boutique",
+         "icon":"arrow.forward.circle.fill",
+         "params": [
+             {
+                 "rank": 0,
+                 "name": "idShop",
+                 "description": "L'identifiant de la boutique",
+                 "mandatory": false
+             }
+         ]
+      },
+      {
+         "url":"monintermarche://intermarche.com/prospectus",
+         "label":"Prospectus",
+         "icon":"arrow.forward.circle.fill",
+         "params": [
+             {
+                 "rank": 0,
+                 "name": "idProspectus",
+                 "description": "L'identifiant du prospectus",
+                 "mandatory": false
+             }
+         ]
+      },
+      {
+         "url":"monintermarche://intermarche.com/fidelite",
+         "label":"Fidélité",
+         "icon":"giftcard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/fidelite/mat",
+         "label":"MAT",
+         "icon":"person.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/mesproduits",
+         "label":"Produits habituels",
+         "icon":"handbag.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/moncompte",
+         "label":"Compte",
+         "icon":"person.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/monmagasin",
+         "label":"Magasin de l'utilisateur",
+         "icon":"door.sliding.left.hand.closed"
+      },
+      {
+         "url":"monintermarche://intermarche.com/magasins",
+         "label":"Store selector",
+         "icon":"cursorarrow.click"
+      },
+      {
+         "url":"monintermarche://intermarche.com/commandes",
+         "label":"Liste des commandes",
+         "icon":"newspaper.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/produits",
+         "label":"Fiche produit",
+         "icon":"arrow.forward.circle.fill",
+         "params": [
+             {
+                 "rank": 0,
+                 "name": "idProduct",
+                 "description": "L'identifiant du produit",
+                 "mandatory": true
+             },
+             {
+                 "rank": 1,
+                 "name": "mkp",
+                 "description": "mettre ici mkp si produit marketplace",
+                 "mandatory": false
+             }
+         ]
+      },
+      {
+         "url":"monintermarche://intermarche.com/rayons",
+         "label":"Univers",
+         "icon":"arrow.forward.circle.fill",
+         "params": [
+             {
+                 "rank": 0,
+                 "name": "idUnivers",
+                 "description": "L'identifiant de l'univers",
+                 "mandatory": false
+             },
+             {
+                 "rank": 1,
+                 "name": "idShelf",
+                 "description": "L'identifiant du rayon",
+                 "mandatory": false
+             },
+             {
+                 "rank": 2,
+                 "name": "idFamily",
+                 "description": "L'identifiant de la famille",
+                 "mandatory": false
+             }
+         ]
+      },
+      {
+         "url":"monintermarche://intermarche.com/rayons/promos",
+         "label":"Galerie promos depuis l'onglet rayons",
+         "icon":"ellipsis.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/rayons/recherche",
+         "label":"Recherche depuis l'onglet rayons",
+         "icon":"magnifyingglass.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/activationcompte",
+         "label":"Activation de compte",
+         "icon":"mail.stack.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/feedback",
+         "label":"Feedback",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/recap",
+         "label":"Recap",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/optin/push",
+         "label":"Activation optin push",
+         "icon":"checkmark.icloud.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/review/ko",
+         "label":"Réclamation",
+         "icon":"figure.stand.line.dotted.figure.stand"
+      },
+      {
+         "url":"monintermarche://intermarche.com/review/ok",
+         "label":"Notation",
+         "icon":"note.text"
+      },
+      {
+         "url":"monintermarche://intermarche.com/mesproduits/habituels",
+         "label":"Mes produits habituels",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/listedecourses",
+         "label":"Liste de courses",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/centredenotifications",
+         "label":"Centre de notifications",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/rayons/promo",
+         "label":"Onglet rayons > galerie toutes nos promos",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/aide",
+         "label":"Aide et contact",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/aide/faq",
+         "label":"Liste des FAQ",
+         "icon":"pencil.circle.fill",
+         "params": [
+             {
+                 "rank": 0,
+                 "name": "idFaq",
+                 "description": "L'identifiant de la faq",
+                 "mandatory": false
+             }
+         ]
+      },
+      {
+         "url":"monintermarche://intermarche.com/optin/push",
+         "label":"Opt-in",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/preferencesSes",
+         "label":"Préférences SES",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/landing",
+         "label":"Mobile Landing",
+         "icon":"arrow.forward.circle.fill",
+         "params": [
+             {
+                 "rank": 0,
+                 "name": "idLanding",
+                 "description": "L'identifiant de la mobile landing",
+                 "mandatory": true
+             }
+         ]
+      },
+      {
+         "url":"monintermarche://intermarche.com/cgu",
+         "label":"CGU",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/data",
+         "label":"Données personnelles",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/scan",
+         "label":"Scan produit",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/bilanconso",
+         "label":"Bilan Conso",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/vignettes",
+         "label":"Opérations vignettes",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/moncompte/ba",
+         "label":"Bons d'achat",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/moncompte/offres",
+         "label":"Offres de la semaine",
+         "icon":"list.bullet.clipboard.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/receipts",
+         "label":"Tickets demat",
+         "icon":"pencil.circle.fill"
+      },
+      {
+         "url":"monintermarche://intermarche.com/challenges",
+         "label":"Défis gagnants",
+         "icon":"list.bullet.clipboard.fill"
+      }
+   ]
+}
